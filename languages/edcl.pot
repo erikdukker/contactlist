@@ -1,0 +1,1121 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Contactlist\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed May 25 2016 10:49:58 GMT+0200 (West-Europa "
+"(zomertijd))\n"
+"POT-Revision-Date: Thu Sep 29 2016 16:06:41 GMT+0200 (West-Europa "
+"(zomertijd))\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../contactform.php:16 ../contactlist/contactform.php:14
+msgid "A problem occured : no contact list"
+msgstr ""
+
+#: ../contactform.php:70 ../contactform.php:74 ../contactform.php:79 ..
+#: /contactlist/contactform.php:72 ../contactlist/contactform.php:76 ..
+#: /contactlist/contactform.php:81
+msgid "Email address already known"
+msgstr ""
+
+#: ../contactform.php:98 ../contactlist/contactform.php:100
+msgid "Contact data updated"
+msgstr ""
+
+#: ../contactform.php:128 ../contactlist/contactform.php:128
+msgid "Confirm your registration at"
+msgstr ""
+
+#: ../contactform.php:132 ../contactlist/contactform.php:132
+msgid "Confirm"
+msgstr ""
+
+#: ../contactform.php:236 ../contactlist/contactform.php:212
+msgid "send"
+msgstr ""
+
+#: ../contactform.php:327 ../contactlist/contactform.php:282
+msgid "field doesn 't exist"
+msgstr ""
+
+#: ../contactform.php:371 ../contactform.php:378 ../contactlist/contactform.php:
+#: 326 ../contactlist/contactform.php:333 ../contactlist/contr/cltagging.php:188 .
+#: ./contactlist/contr/cltagging.php:195 ../contr/cltagging.php:177 ..
+#: /contr/cltagging.php:184
+msgid "positions"
+msgstr ""
+
+#: ../contactform.php:406 ../contactlist/contactform.php:361
+msgid "email and name are required in the form"
+msgstr ""
+
+#: ../contactlist/contactform.php:112
+msgid "Contact data inserted"
+msgstr ""
+
+#: ../contactlist/contactform.php:123
+msgid "registered: please confirm with link in send email "
+msgstr ""
+
+#: ../contactlist/contactform.php:200
+msgid "not available: use link"
+msgstr ""
+
+#: ../contactlist/contactform.php:224
+msgid "You are unsubscribed, feel free to come back"
+msgstr ""
+
+#: ../contactlist/contactform.php:236
+msgid "Confirmed"
+msgstr ""
+
+#. Name of the plugin
+msgid "Contactlist"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://eduk.nl"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Contactlist share a central contactlist, loads of useful features: update "
+"reminders, html emailer, smart selection"
+msgstr ""
+
+#. Author of the plugin
+msgid "Erik Dukker"
+msgstr ""
+
+#: ../contactlist/contactlist.php:45 ../contactlist.php:45
+msgid "Version:"
+msgstr ""
+
+#: ../contactlist/contactlist.php:46 ../contactlist.php:46
+msgid "Released:"
+msgstr ""
+
+#: ../contactlist/contactlist.php:47 ../contactlist.php:47
+msgid "Documentation on www.contactlijst.nl (dutch only sorry)"
+msgstr ""
+
+#: ../contactlist/contactlist.php:48 ../contactlist.php:48
+msgid "Time limited licencing"
+msgstr ""
+
+#: ../contactlist/contactlist.php:57 ../contactlist.php:57
+msgid "compact contactlist"
+msgstr ""
+
+#: ../contactlist/contactlist.php:58 ../contactlist.php:58
+msgid "full contactlist"
+msgstr ""
+
+#: ../contactlist/contactlist.php:59 ../contactlist.php:59
+msgid "register only"
+msgstr ""
+
+#: ../contactlist/contactlist.php:60 ../contactlist.php:60
+msgid "email invite"
+msgstr ""
+
+#: ../contactlist/contactlist.php:61 ../contactlist/contr/clcommon.php:56 ..
+#: /contactlist.php:61 ../contr/clcommon.php:56
+msgid "confirm register"
+msgstr ""
+
+#: ../contactlist/contactlist.php:62 ../contactlist.php:62
+msgid "email 1 collumn"
+msgstr ""
+
+#: ../contactlist/contactlist.php:63 ../contactlist.php:63
+msgid "email 2 collumns"
+msgstr ""
+
+#: ../contactlist/contactlist.php:64 ../contactlist.php:64
+msgid "settings"
+msgstr ""
+
+#: ../contactlist/contactlist.php:65 ../contactlist.php:65
+msgid "css"
+msgstr ""
+
+#: ../contactlist/contactlist.php:129 ../contactlist/contr/cltagging.php:52 ..
+#: /contactlist/contr/cltagging.php:134 ../contactlist.php:125
+msgid "contactlist"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:33 ../contr/clcommon.php:33
+msgid "1 min"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:34 ../contr/clcommon.php:34
+msgid "5 min"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:35 ../contr/clcommon.php:35
+msgid "3 days"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:36 ../contactlist/contr/clcommon.php:70 ..
+#: /contr/clcommon.php:36 ../contr/clcommon.php:70
+msgid "week"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:37 ../contactlist/contr/clcommon.php:71 ..
+#: /contr/clcommon.php:37 ../contr/clcommon.php:71
+msgid "2 weeks"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:38 ../contactlist/contr/clcommon.php:72 ..
+#: /contr/clcommon.php:38 ../contr/clcommon.php:72
+msgid "1 month"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:39 ../contactlist/contr/clcommon.php:73 ..
+#: /contr/clcommon.php:39 ../contr/clcommon.php:73
+msgid "2 months"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:40 ../contactlist/contr/clcommon.php:74 ..
+#: /contr/clcommon.php:40 ../contr/clcommon.php:74
+msgid "3 months"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:41 ../contactlist/contr/clcommon.php:75 ..
+#: /contr/clcommon.php:41 ../contr/clcommon.php:75
+msgid "half year"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:42 ../contr/clcommon.php:42
+msgid "year"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:43 ../contr/clcommon.php:43
+msgid "2 years"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:44 ../contactlist/contr/clcommon.php:76 ..
+#: /contr/clcommon.php:44 ../contr/clcommon.php:76
+msgid "never"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:46 ../contr/clcommon.php:46
+msgid "text variable length"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:47 ../contr/clcommon.php:47
+msgid "text fixed length"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:48 ../contactlist/contr/cltagging.php:50 ..
+#: /contr/clcommon.php:48 ../contr/cltagging.php:62
+msgid "email"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:49 ../contr/clcommon.php:49
+msgid "url"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:50 ../contr/clcommon.php:50
+msgid "checkbox"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:52 ../contactlist/contr/clconsole.php:160 ..
+#: /contactlist/contr/clevent.php:156 ../contr/clcommon.php:52 ../contr/clconsole.
+#: php:162 ../contr/clevent.php:148
+msgid "admin"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:53 ../contr/clcommon.php:53
+msgid "admin, contact"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:54 ../contr/clcommon.php:54
+msgid "all contacts"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:57 ../contr/clcommon.php:57
+msgid "invitation to check"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:59 ../contr/clcommon.php:59
+msgid "1 column"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:60 ../contr/clcommon.php:60
+msgid "2 columns"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:69 ../contr/clcommon.php:69
+msgid "day"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:78 ../contr/clcommon.php:78
+msgid "minutes"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:79 ../contr/clcommon.php:79
+msgid "hours"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:80 ../contr/clcommon.php:80
+msgid "days"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:83 ../contactlist/contr/clcommon.php:97 ..
+#: /contactlist/contr/clcommon.php:101 ../contactlist/contr/clcommon.php:102 ..
+#: /contactlist/contr/clcommon.php:104 ../contactlist/contr/clcommon.php:107 ..
+#: /contactlist/contr/clcommon.php:108 ../contactlist/contr/clcommon.php:109 ..
+#: /contr/clcommon.php:91 ../contr/clcommon.php:95 ../contr/clcommon.php:96 ..
+#: /contr/clcommon.php:101 ../contr/clcommon.php:102 ../contr/clcommon.php:103
+msgid "invite"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:84
+msgid "confirm"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:85
+msgid "expired"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:97 ../contactlist/contr/clcommon.php:99 ..
+#: /contactlist/contr/clcommon.php:100 ../contactlist/contr/clcommon.php:101 ..
+#: /contr/clcommon.php:91 ../contr/clcommon.php:93 ../contr/clcommon.php:94 ..
+#: /contr/clcommon.php:95
+msgid "no action"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:98 ../contr/clcommon.php:92
+msgid "wait for check"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:98 ../contactlist/contr/clcommon.php:99 ..
+#: /contr/clcommon.php:92 ../contr/clcommon.php:93
+msgid "remind"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:100 ../contr/clcommon.php:94
+msgid "wait after remind"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:102 ../contr/clcommon.php:96
+msgid "checked"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:103 ../contr/clcommon.php:97
+msgid "registered"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:103 ../contactlist/contr/clcommon.php:104
+msgid "confirmed"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:105
+msgid "only registered"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:105 ../contr/clcommon.php:97 ..
+#: /contr/clcommon.php:98 ../contr/clcommon.php:99
+msgid "unsubscribe"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:106 ../contr/clcommon.php:100
+msgid "unsubscribed"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:106 ../contr/clcommon.php:100
+msgid "subscribe"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:107 ../contr/clcommon.php:101
+msgid "no respons"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:108 ../contr/clcommon.php:102
+msgid "maintained by admin"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:109 ../contr/clcommon.php:103
+msgid "trashed"
+msgstr ""
+
+#: ../contactlist/contr/clcommon.php:126 ../contr/clcommon.php:120
+msgid "mail not maintained"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:18 ../contactlist/contr/clevent.php:18 ..
+#: /contactlist/contr/clsetting.php:162 ../contactlist/contr/cltagging.php:18 ..
+#: /contr/clconsole.php:18 ../contr/clevent.php:18 ../contr/clsetting.php:158 ..
+#: /contr/cltagging.php:18
+msgid "Please maintain settings first"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:143 ../contactlist/contr/clconsole.php:169 .
+#: ./contactlist/contr/clconsole.php:185 ../contactlist/contr/clevent.php:139 ..
+#: /contactlist/contr/clevent.php:165 ../contactlist/contr/clevent.php:181 ..
+#: /contactlist/pages.php:96 ../contactlist/pages.php:142 ../contactlist/pages.
+#: php:142 ../contr/clconsole.php:145 ../contr/clconsole.php:171 ..
+#: /contr/clconsole.php:187 ../contr/clevent.php:131 ../contr/clevent.php:157 ..
+#: /contr/clevent.php:173 ../pages.php:108 ../pages.php:156 ../pages.php:156
+msgid "Console"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:145 ../contactlist/contr/clevent.php:141 ..
+#: /contr/clconsole.php:147 ../contr/clevent.php:133
+msgid "Check proposed actions, change if needed. Then"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:146 ../contactlist/contr/clevent.php:142 ..
+#: /contr/clconsole.php:148 ../contr/clevent.php:134
+msgid "Process"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:158 ../contactlist/contr/clevent.php:154 ..
+#: /contactlist/contr/clmail.php:54 ../contactlist/contr/clmail.php:89 ..
+#: /contactlist/contr/cltagging.php:60 ../contr/clconsole.php:160 ..
+#: /contr/clevent.php:146 ../contr/clmail.php:54 ../contr/clmail.php:89 ..
+#: /contr/cltagging.php:72
+msgid "edit"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:159 ../contactlist/contr/clevent.php:155 ..
+#: /contr/clconsole.php:161 ../contr/clevent.php:147
+msgid "view log"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:171 ../contactlist/contr/clevent.php:167 ..
+#: /contr/clconsole.php:173 ../contr/clevent.php:159
+msgid "No contact found"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:188 ../contactlist/contr/clevent.php:184 ..
+#: /contr/clconsole.php:190 ../contr/clevent.php:176
+msgid "Send mails"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:201 ../contactlist/contr/clevent.php:197 ..
+#: /contr/clconsole.php:203 ../contr/clevent.php:189
+msgid "an invitation to check contact data"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:204 ../contactlist/contr/clevent.php:200 ..
+#: /contr/clconsole.php:206 ../contr/clevent.php:192
+msgid "Reminder"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:206 ../contactlist/contr/clevent.php:202 ..
+#: /contr/clconsole.php:208 ../contr/clevent.php:194
+msgid "an reminder to check contact data"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:211 ../contactlist/contr/clevent.php:207 ..
+#: /contr/clconsole.php:217 ../contr/clevent.php:202
+msgid "Check contact data with "
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:235 ../contactlist/contr/clevent.php:231 ..
+#: /contactlist/mailer.php:87 ../contr/clconsole.php:241 ../contr/clevent.php:226 
+#: ../mailer.php:87
+msgid "received"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:252 ../contactlist/contr/clevent.php:248 ..
+#: /contr/clconsole.php:258 ../contr/clevent.php:243
+msgid "Log"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:255 ../contactlist/contr/clevent.php:251 ..
+#: /contr/clconsole.php:261 ../contr/clevent.php:246
+msgid "What happend when? :"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:287 ../contactlist/contr/clevent.php:283 ..
+#: /contr/clconsole.php:293 ../contr/clevent.php:278
+msgid "Admin contact"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:289 ../contactlist/contr/clevent.php:285 ..
+#: /contactlist/contr/cltagging.php:128 ../contr/clconsole.php:295 ..
+#: /contr/clevent.php:280 ../contr/cltagging.php:131
+msgid "Contact :"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:291 ../contactlist/contr/clevent.php:287 ..
+#: /contr/clconsole.php:297 ../contr/clevent.php:282
+msgid "Status : "
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:303 ../contactlist/contr/clevent.php:299 ..
+#: /contactlist/contr/cltagging.php:132 ../contactlist/pages.php:53 ..
+#: /contactlist/pages.php:141 ../contactlist/pages.php:141 ../contr/clconsole.php:
+#: 309 ../contr/clevent.php:294 ../contr/cltagging.php:135 ../pages.php:53 ..
+#: /pages.php:153 ../pages.php:153
+msgid "Tags"
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:305 ../contactlist/contr/clevent.php:301 ..
+#: /contr/clconsole.php:311 ../contr/clevent.php:296
+msgid "Tags : "
+msgstr ""
+
+#: ../contactlist/contr/clconsole.php:318 ../contactlist/contr/clcss.php:32 ..
+#: /contactlist/contr/clevent.php:314 ../contactlist/contr/clmail.php:145 ..
+#: /contactlist/contr/clsetting.php:53 ../contactlist/contr/clsetting.php:147 ..
+#: /contactlist/contr/clsetting.php:296 ../contactlist/contr/cltagging.php:227 ..
+#: /contactlist/test.php:35 ../contr/clconsole.php:324 ../contr/clcss.php:32 ..
+#: /contr/clevent.php:309 ../contr/clmail.php:145 ../contr/clsetting.php:53 ..
+#: /contr/clsetting.php:143 ../contr/clsetting.php:292 ../contr/clsetting.php:483 
+#: ../contr/cltagging.php:216
+msgid "save"
+msgstr ""
+
+#: ../contactlist/contr/clcss.php:26 ../contr/clcss.php:26
+msgid "Edit layout (css):"
+msgstr ""
+
+#: ../contactlist/contr/clcss.php:28 ../contr/clcss.php:28
+msgid "This is an expert task but you can start again with reset"
+msgstr ""
+
+#: ../contactlist/contr/clcss.php:33 ../contactlist/contr/clmail.php:150 ..
+#: /contr/clcss.php:33 ../contr/clmail.php:150
+msgid "reset"
+msgstr ""
+
+#: ../contactlist/contr/clmail.php:37 ../contactlist/pages.php:59 ..
+#: /contactlist/pages.php:144 ../contactlist/pages.php:144 ../contr/clmail.php:37 
+#: ../pages.php:71 ../pages.php:158 ../pages.php:158
+msgid "Standard mails"
+msgstr ""
+
+#: ../contactlist/contr/clmail.php:49 ../contr/clmail.php:49
+msgid "maintained"
+msgstr ""
+
+#: ../contactlist/contr/clmail.php:51 ../contr/clmail.php:51
+msgid "not maintained"
+msgstr ""
+
+#: ../contactlist/contr/clmail.php:62 ../contr/clmail.php:62
+msgid "User mails"
+msgstr ""
+
+#: ../contactlist/contr/clmail.php:65 ../contr/clmail.php:65
+msgid "User mails template:"
+msgstr ""
+
+#: ../contactlist/contr/clmail.php:73
+msgid "create"
+msgstr ""
+
+#: ../contactlist/contr/clmail.php:79 ../contr/clmail.php:79
+msgid "User mails:"
+msgstr ""
+
+#: ../contactlist/contr/clmail.php:127 ../contr/clmail.php:127
+msgid "Edit standard / user mail:"
+msgstr ""
+
+#: ../contactlist/contr/clmail.php:131 ../contr/clmail.php:131
+msgid "Name :"
+msgstr ""
+
+#: ../contactlist/contr/clmail.php:154 ../contr/clmail.php:154
+msgid "delete"
+msgstr ""
+
+#: ../contactlist/contr/clmail.php:158 ../contr/clmail.php:158
+msgid ""
+"\n"
+"            click on marked text to edit. Variables are enclosed by %. You "
+"can use every field (short) as a variable.<br>\n"
+"            Test email first by sending to test email address\n"
+"            "
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:14 ../contactlist/pages.php:28 ..
+#: /contactlist/pages.php:136 ../contr/clsetting.php:14 ../pages.php:28 ../pages.
+#: php:148
+msgid "License"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:18 ../contr/clsetting.php:18
+msgid "Your license"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:24 ../contr/clsetting.php:24
+msgid "check"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:42 ../contr/clsetting.php:42
+msgid "Create contactlist"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:44 ../contr/clsetting.php:44
+msgid "Choose the template that fit's best"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:64 ../contr/clsetting.php:64
+msgid "Contactlist settings"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:68 ../contr/clsetting.php:358 ..
+#: /contr/clsetting.php:466
+msgid "setting"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:69 ../contr/clsetting.php:359 ..
+#: /contr/clsetting.php:467
+msgid "value"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:72 ../contr/clsetting.php:68
+msgid "Description"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:74 ../contr/clsetting.php:70 ..
+#: /contr/clsetting.php:364
+msgid "max 40 positions"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:78 ../contr/clsetting.php:74
+msgid "Reply to"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:80 ../contr/clsetting.php:76
+msgid "email address"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:86 ../contr/clsetting.php:82
+msgid "Email test"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:88 ../contr/clsetting.php:84
+msgid "if set all emails are sent to reply"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:92 ../contr/clsetting.php:88
+msgid "Permalink [contactform]"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:93
+msgid ""
+"Insert the shortcode <b>[contactform]</b> in a page. Fill the permalink "
+"(url)\n"
+"                        of the page"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:100 ../contr/clsetting.php:96
+msgid "Url of logo"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:101 ../contr/clsetting.php:97
+msgid "Get this url in the media library"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:107 ../contr/clsetting.php:103
+msgid "Check every"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:120 ../contr/clsetting.php:116
+msgid "Remind after"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:132 ../contr/clsetting.php:128
+msgid "Max reminders"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:136 ../contr/clsetting.php:132
+msgid "Contactlist visible for contacts"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:140 ../contr/clsetting.php:136
+msgid "Confirm deletion"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:142 ../contr/clsetting.php:138
+msgid "all data will be lost!"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:149 ../contr/clsetting.php:145
+msgid "delete contactlist"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:173 ../contr/clsetting.php:169
+msgid "Field list"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:178 ../contr/clsetting.php:174
+msgid "short"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:179 ../contr/clsetting.php:175
+msgid "name"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:180 ../contr/clsetting.php:176
+msgid "example"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:181 ../contr/clsetting.php:177
+msgid "default"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:182 ../contr/clsetting.php:178
+msgid "type"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:183 ../contr/clsetting.php:179
+msgid "length"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:184 ../contr/clsetting.php:180
+msgid "visible by"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:185 ../contr/clsetting.php:181
+msgid "rq"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:186 ../contr/clsetting.php:182
+msgid "order"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:297 ../contr/clsetting.php:293
+msgid "add field"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:314 ../contr/clsetting.php:310
+msgid "Maintain tags"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:316
+msgid "Delete tags : "
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:324 ../contr/clsetting.php:320
+msgid "delete selected tags"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:327
+msgid "Add tag : "
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:337 ../contr/clsetting.php:333 ..
+#: /contr/cltagging.php:58
+msgid "add tag"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:348 ../contactlist/test.php:34 ..
+#: /contr/clsetting.php:496
+msgid "download file"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:351 ../contr/clsetting.php:499
+msgid "export contacts"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:360 ../contr/clsetting.php:509
+msgid "upload file"
+msgstr ""
+
+#: ../contactlist/contr/clsetting.php:364
+msgid "import"
+msgstr ""
+
+#: ../contactlist/contr/cltagging.php:47 ../contactlist/pages.php:102 ..
+#: /contactlist/pages.php:143 ../contactlist/pages.php:143 ../contr/cltagging.php:
+#: 47 ../pages.php:114 ../pages.php:157 ../pages.php:157
+msgid "Tagging"
+msgstr ""
+
+#: ../contactlist/contr/cltagging.php:49 ../contr/clsetting.php:362 ..
+#: /contr/cltagging.php:61
+msgid "Name"
+msgstr ""
+
+#: ../contactlist/contr/cltagging.php:51 ../contactlist/selectcontact.php:159 ..
+#: /contr/cltagging.php:63 ../selectcontact.php:179
+msgid "tags"
+msgstr ""
+
+#: ../contactlist/contr/cltagging.php:126 ../contr/cltagging.php:129
+msgid "tag contact"
+msgstr ""
+
+#: ../contactlist/contr/cltagging.php:136 ../contr/cltagging.php:137
+msgid "Info"
+msgstr ""
+
+#: ../contactlist/contr/uppages.php:337 ../contr/uppages.php:441 ../contr/uppages.
+#: php:602 ../uppages.php:441 ../uppages.php:602
+msgid "Sorry, your file is too large."
+msgstr ""
+
+#: ../contactlist/contr/uppages.php:344 ../contr/uppages.php:448 ../contr/uppages.
+#: php:609 ../uppages.php:448 ../uppages.php:609
+msgid "Sorry, there was an error uploading your file."
+msgstr ""
+
+#: ../contactlist/contr/uppages.php:373 ../contr/uppages.php:480 ../uppages.php:480
+msgid "Column not in definition."
+msgstr ""
+
+#: ../contactlist/contr/uppages.php:390 ../contr/uppages.php:502 ../uppages.php:502
+msgid "Id not found."
+msgstr ""
+
+#: ../contactlist/contr/uppages.php:416 ../contr/uppages.php:530 ../uppages.php:530
+msgid "Update. Row:"
+msgstr ""
+
+#: ../contactlist/contr/uppages.php:431 ../contr/uppages.php:547 ../uppages.php:547
+msgid "Email already known."
+msgstr ""
+
+#: ../contactlist/contr/uppages.php:443
+msgid "EM1 and NM1 are required. Row: "
+msgstr ""
+
+#: ../contactlist/contr/uppages.php:447 ../contr/uppages.php:568 ../uppages.php:568
+msgid "Not inserted. Row:"
+msgstr ""
+
+#: ../contactlist/contr/uppages.php:461 ../contr/uppages.php:582 ../uppages.php:582
+msgid "Inserted. Row:"
+msgstr ""
+
+#: ../contactlist/mailer.php:58 ../mailer.php:62
+msgid "don't want"
+msgstr ""
+
+#: ../contactlist/mailer.php:60 ../mailer.php:64
+msgid "already recieved"
+msgstr ""
+
+#: ../contactlist/mailer.php:64 ../mailer.php:69
+msgid "Unsubscribe"
+msgstr ""
+
+#: ../contactlist/mailer.php:89 ../mailer.php:89
+msgid "did not receive"
+msgstr ""
+
+#: ../contactlist/mailer.php:107 ../mailer.php:107
+msgid "Only for admin"
+msgstr ""
+
+#: ../contactlist/mailer.php:116 ../contr/cltagging.php:144 ../mailer.php:116
+msgid "none"
+msgstr ""
+
+#: ../contactlist/mailer.php:141 ../mailer.php:141
+msgid "user mail"
+msgstr ""
+
+#: ../contactlist/mailer.php:155 ../mailer.php:155
+msgid "selections"
+msgstr ""
+
+#: ../contactlist/mailer.php:169 ../mailer.php:169
+msgid "extra selection"
+msgstr ""
+
+#: ../contactlist/mailer.php:183 ../mailer.php:183
+msgid "new mail tag"
+msgstr ""
+
+#: ../contactlist/mailer.php:193 ../mailer.php:193
+msgid "contacts wont receive mail if tag is already set"
+msgstr ""
+
+#: ../contactlist/mailer.php:201 ../mailer.php:201
+msgid "send mail to selection"
+msgstr ""
+
+#: ../contactlist/mailer.php:205 ../mailer.php:205
+msgid "Test mode is switched on"
+msgstr ""
+
+#: ../contactlist/mailer.php:215
+msgid "Delete selection"
+msgstr ""
+
+#: ../contactlist/mailer.php:225 ../mailer.php:216
+msgid "delete selection"
+msgstr ""
+
+#: ../contactlist/pages.php:21 ../pages.php:21
+msgid "Settings"
+msgstr ""
+
+#: ../contactlist/pages.php:34 ../contactlist/pages.php:126 ../contactlist/pages.
+#: php:137 ../contactlist/pages.php:151 ../pages.php:34 ../pages.php:138 ../pages.
+#: php:149 ../pages.php:165
+msgid "About contactlist"
+msgstr ""
+
+#: ../contactlist/pages.php:41 ../contactlist/pages.php:139 ../contactlist/pages.
+#: php:139 ../pages.php:41 ../pages.php:151 ../pages.php:151
+msgid "List"
+msgstr ""
+
+#: ../contactlist/pages.php:47 ../contactlist/pages.php:140 ../contactlist/pages.
+#: php:140 ../pages.php:47 ../pages.php:152 ../pages.php:152
+msgid "Fields"
+msgstr ""
+
+#: ../contactlist/pages.php:65 ../pages.php:77
+msgid "Layout (css)"
+msgstr ""
+
+#: ../contactlist/pages.php:71 ../contactlist/pages.php:146 ../contactlist/pages.
+#: php:146 ../pages.php:83 ../pages.php:160 ../pages.php:160
+msgid "Export"
+msgstr ""
+
+#: ../contactlist/pages.php:77 ../contactlist/pages.php:147 ../contactlist/pages.
+#: php:147 ../pages.php:89 ../pages.php:161 ../pages.php:161
+msgid "Import"
+msgstr ""
+
+#: ../contactlist/pages.php:88 ../pages.php:100
+msgid "New full contact"
+msgstr ""
+
+#: ../contactlist/pages.php:108 ../contactlist/pages.php:148 ../contactlist/pages.
+#: php:148 ../pages.php:120 ../pages.php:162 ../pages.php:162
+msgid "Mails"
+msgstr ""
+
+#: ../contactlist/pages.php:114 ../pages.php:126
+msgid "Make selection"
+msgstr ""
+
+#: ../contactlist/pages.php:120 ../contactlist/pages.php:150 ../contactlist/pages.
+#: php:150 ../pages.php:132 ../pages.php:164 ../pages.php:164
+msgid "Mailer"
+msgstr ""
+
+#: ../contactlist/pages.php:136 ../pages.php:148
+msgid "license"
+msgstr ""
+
+#: ../contactlist/pages.php:137 ../contactlist/pages.php:151 ../pages.php:149 ..
+#: /pages.php:165
+msgid "About"
+msgstr ""
+
+#: ../contactlist/pages.php:145 ../pages.php:159
+msgid "Css"
+msgstr ""
+
+#: ../contactlist/pages.php:145 ../pages.php:159
+msgid "Layout (css expert)"
+msgstr ""
+
+#: ../contactlist/pages.php:149 ../contactlist/pages.php:149 ../pages.php:163 ..
+#: /pages.php:163
+msgid "Select"
+msgstr ""
+
+#: ../contactlist/selectcontact.php:97 ../selectcontact.php:101
+msgid "No contact selected"
+msgstr ""
+
+#: ../contactlist/selectcontact.php:100 ../selectcontact.php:104
+msgid "contacts selected"
+msgstr ""
+
+#: ../contactlist/selectcontact.php:134 ../selectcontact.php:144
+msgid "contact doesn't exist"
+msgstr ""
+
+#: ../contactlist/selectcontact.php:180 ../selectcontact.php:204
+msgid "sort on"
+msgstr ""
+
+#: ../contactlist/selectcontact.php:189 ../selectcontact.php:213
+msgid "find contacts"
+msgstr ""
+
+#: ../contactlist/selectcontact.php:192 ../selectcontact.php:216
+msgid "save selection as"
+msgstr ""
+
+#: ../contactlist/selectcontact.php:193 ../selectcontact.php:217
+msgid "selection name"
+msgstr ""
+
+#: ../contactlist/selectcontact.php:219 ../selectcontact.php:243
+msgid "set"
+msgstr ""
+
+#: ../contactlist/selectcontact.php:221 ../selectcontact.php:245
+msgid "not set"
+msgstr ""
+
+#: ../contactlist/selectcontact.php:243 ../selectcontact.php:267
+msgid "selection saved as"
+msgstr ""
+
+#: ../contr/clcommon.php:98
+msgid "registered confirmed"
+msgstr ""
+
+#: ../contr/clcommon.php:99
+msgid "registered without confirmation"
+msgstr ""
+
+#: ../contr/clconsole.php:325
+msgid "delete contact"
+msgstr ""
+
+#: ../contr/clmail.php:73
+msgid "create mail"
+msgstr ""
+
+#: ../contr/clsetting.php:89
+msgid ""
+"Insert the shortcode <b>[contactform name = \"volledig\"]</b> in a page. Fill "
+"here the permalink (url)\n"
+"                        of the page"
+msgstr ""
+
+#: ../contr/clsetting.php:312
+msgid "Remove selected tags "
+msgstr ""
+
+#: ../contr/clsetting.php:323
+msgid "Add tag"
+msgstr ""
+
+#: ../contr/clsetting.php:351
+msgid "Maintain forms"
+msgstr ""
+
+#: ../contr/clsetting.php:369
+msgid "Instruction"
+msgstr ""
+
+#: ../contr/clsetting.php:371 ../contr/clsetting.php:414 ../contr/clsetting.php:
+#: 422 ../contr/clsetting.php:430
+msgid "max 120 positions"
+msgstr ""
+
+#: ../contr/clsetting.php:377
+msgid "Velden"
+msgstr ""
+
+#: ../contr/clsetting.php:379 ../contr/clsetting.php:388 ../contr/clsetting.php:
+#: 398 ../contr/clsetting.php:406
+msgid "max 60 positions"
+msgstr ""
+
+#: ../contr/clsetting.php:380
+msgid "when emptie: all fields"
+msgstr ""
+
+#: ../contr/clsetting.php:386
+msgid "Parm"
+msgstr ""
+
+#: ../contr/clsetting.php:389
+msgid "options: open,hidden,conf"
+msgstr ""
+
+#: ../contr/clsetting.php:396
+msgid "Button open"
+msgstr ""
+
+#: ../contr/clsetting.php:404
+msgid "Button end"
+msgstr ""
+
+#: ../contr/clsetting.php:412
+msgid "Insert confirmed"
+msgstr ""
+
+#: ../contr/clsetting.php:420
+msgid "Confirmation by email"
+msgstr ""
+
+#: ../contr/clsetting.php:428
+msgid "Unsubscribbed"
+msgstr ""
+
+#: ../contr/clsetting.php:439
+msgid "update"
+msgstr ""
+
+#: ../contr/clsetting.php:461
+msgid "Event settings"
+msgstr ""
+
+#: ../contr/clsetting.php:470
+msgid "Expires after"
+msgstr ""
+
+#: ../contr/clsetting.php:476
+msgid "Organizer"
+msgstr ""
+
+#: ../contr/clsetting.php:500
+msgid "export settings"
+msgstr ""
+
+#: ../contr/clsetting.php:513
+msgid "import contacts"
+msgstr ""
+
+#: ../contr/clsetting.php:514
+msgid "import settings"
+msgstr ""
+
+#: ../contr/cltagging.php:52
+msgid "Choose tag"
+msgstr ""
+
+#: ../contr/cltagging.php:59
+msgid "delete tag"
+msgstr ""
+
+#: ../contr/uppages.php:560 ../uppages.php:560
+msgid "EM1 is required. Row: "
+msgstr ""
+
+#: ../contr/uppages.php:564 ../uppages.php:564
+msgid "NM1is required. Row: "
+msgstr ""
+
+#: ../mailer.php:213
+msgid "delete user mail"
+msgstr ""
+
+#: ../pages.php:59 ../pages.php:154 ../pages.php:154
+msgid "Forms"
+msgstr ""
+
+#: ../pages.php:65 ../pages.php:155 ../pages.php:155
+msgid "Events"
+msgstr ""
