@@ -9,6 +9,9 @@
 class clsetting extends clcommon
 {
 public function license( ) {
+    $website = get_site_url();
+    $website = str_replace('http://', '', $website);
+    $website = str_replace('https://', '', $website);
     ?>
     <form action=<?php echo $this->action; ?> method='post'>
         <h2><?php echo __( 'License', 'edcl' ); ?></h2>
@@ -17,6 +20,7 @@ public function license( ) {
             <tr>
                 <td><?php echo __( 'Your license', 'edcl' ); ?></td>
                 <td><input type='text' name='lc' size=40 required >
+                <td><?php echo __('for website: ', 'edcl') . ' ' . $website; ?> </td>
                 </td>
             </tr>
         </table>

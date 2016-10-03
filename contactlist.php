@@ -6,7 +6,7 @@
   Plugin Name: Contactlist
   Plugin URI: http://eduk.nl/
   Description: Contactlist share a central contactlist, loads of useful features: update reminders, html emailer, smart selection
-  Version: 1.3.0
+  Version: 1.3.2
   Author: Erik Dukker
   Author URI: http://eduk.nl/
   License: GPL 3
@@ -42,8 +42,8 @@ register_uninstall_hook( __FILE__ , 'on_uninstall' );
  */
 function aboutcontent() {
     echo '<br>';
-    echo __( 'Version:', 'edcl' ).' '.'1.3.0'.'<br>';
-    echo __( 'Released:', 'edcl' ).' '.'2016/09/29'.'<br>';
+    echo __('Version:', 'edcl') . ' ' . '1.3.2' . '<br>';
+    echo __('Released:', 'edcl') . ' ' . '2016/10/03' . '<br>';
     echo __( 'Documentation on www.contactlijst.nl (dutch only sorry)', 'edcl' ).'<br>';
     echo __( 'Time limited licencing', 'edcl' ).'<br>';
 

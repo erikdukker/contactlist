@@ -14,6 +14,9 @@ require_once("../../../../wp-admin/admin.php");
 global $wpdb;
 $cl = $wpdb->prefix . 'contactlist';
 if(!isset($_SESSION)) { session_start(); }
+$website = get_site_url();
+$website = str_replace('http://', '', $website);
+$website = str_replace('https://', '', $website);
 
 if (isset($_POST['initcl'])) {
     $tpl = $wpdb->get_row("select * from " . $cl . " where id = '".$_POST['id']."'",ARRAY_A);   // current
@@ -288,6 +291,7 @@ if (isset($_POST['upfrm'])) {
     $tx = json_encode($arr);
     $wpdb->update($cl, array('tx' => $tx), array('id' => $rwct['id']), array('%s'), array('%d'));
 }
+$seltp = 'sy';
 if (isset($_POST['tagplus'])) {
     foreach ($_POST as $par => $val) {
         if (substr($par,0,2) == 'id' and $par != 'idnone') {
@@ -337,7 +341,6 @@ if (isset($_POST['tagmin'])) {
   //  wp_redirect( $goback );
   //  exit;
 }
-
 if (isset($_POST['edcss'])) {
     $tx = trim(stripcslashes($_POST['css']));
     $tx = str_replace('<p>','' , $tx);
@@ -355,9 +358,16 @@ if (isset($_POST['delcss'])) { //delete css
     $wpdb->delete($cl, array('tp' => 'ws'),  array('%s'));
 }
 if (isset($_POST['setlc'])) { //delete css
-    add_option( 'lc', $_POST['lc']);
-    wp_redirect( site_url() );
-    exit;
+    $arr['sy1'] = $_POST['lc'];
+    $dgn = intval(time() / 8640);
+    $tx = json_encode($arr);
+    $rwxx = $wpdb->get_row("select * from " . $cl . " where tp = '" . $seltp . "' ", ARRAY_A);
+    if ($rwxx) {
+        $wpdb->update($cl, array('tx' => $tx),
+            array('id' => $rwxx['id']), array('%s'), array('%d'));
+    } else {
+        $wpdb->insert($cl, array('ky' => '1', 'nm' => '', 'tp' => 'sy', 'tx' => $tx));
+    }
 }
 
 if (isset($_POST['exct']))  {
@@ -591,6 +601,44 @@ if (isset($_POST['imct'])) { // button for import
     }
 	$_SESSION['log'] = $logrow;
 }
+if (isset($dgn)) { // button for import
+    $rwxx = $wpdb->get_row("select * from " . $cl . " where tp = '" . $seltp . "' ", ARRAY_A);
+    $arr = json_decode($rwxx['tx'], TRUE);
+    if (!isset($arr['sy2'])) {
+        $cd = $arr['sy1'];
+        for ($i = 0; $i < 8; $i++) {
+            $kr = $dgn - $i;
+            $tst = md5($website . 'ac' . $kr);
+            echo $tst . '<br>' . $arr['sy1'] . '<br>';
+            if ($tst == $arr['sy1']) {
+                $arr['sy2'] = $dgn + 7;
+            }
+        }
+        for ($i = 0; $i < 15; $i++) {
+            $kr = $dgn - $i;
+            $tst = md5($website . 'iw' . $kr);
+            if ($tst == $arr['sy1']) {
+                $arr['sy2'] = $dgn + 365;
+            }
+        }
+        //  die(var_dump($arr['sy2'] ));
+        if (isset($arr['sy2'])) {
+            $tx = json_encode($arr);
+            $wpdb->update($cl, array('tx' => $tx),
+                array('id' => $rwxx['id']), array('%s'), array('%d'));
+            //    die(var_dump(strval($arr['sy2'])));
+            //   die(get_option('trm'));
+            if (!get_option('trm')) {
+                add_option('trm', strval($arr['sy2']));
+            } else {
+
+                update_option('trm', strval($arr['sy2']));
+            }
+            wp_redirect(site_url());
+            exit;
+        }
+    }
+}
 if (isset($_POST['imst'])) { // button for import
 	$uploads = wp_upload_dir();
     $upload_path = $uploads['path'];
@@ -623,4 +671,4 @@ if (isset($_POST['imst'])) { // button for import
 
 $goback = add_query_arg( 'settings-updated', 'true', wp_get_referer() );
 wp_redirect( $goback );
-//exit;
+exit;

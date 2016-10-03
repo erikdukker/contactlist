@@ -21,7 +21,15 @@ function custom_adminbar_menu( $meta = TRUE ) {
         'title' => __('Settings', 'edcl'),
         'href' => '#',
     ));
-    if (!get_option( 'lc')) {
+    $ok = false;
+    //die (var_dump(get_option('dg')));
+    if (get_option('trm')) {
+        $dgn = intval(time() / 8640);
+        if (get_option('trm') > $dgn) {
+            $ok = true;
+        }
+    }
+    if (!$ok) {
         $wp_admin_bar->add_menu(array(
             'parent' => 'settings',
             'id' => 'lic',
@@ -144,7 +152,14 @@ add_action( 'admin_bar_menu', 'custom_adminbar_menu', 90 );
 
 function edcl_add_admin_menu() {
     add_menu_page( null, 'Contactlist', 'manage_options', 'Contactlist', 'settings');
-    if (!get_option( 'lc')) {
+    $ok = false;
+    if (get_option('trm')) {
+        $dgn = intval(time() / 8640);
+        if (get_option('trm') > $dgn) {
+            $ok = true;
+        }
+    }
+    if (!$ok) {
         add_submenu_page('Contactlist', __('License', 'edcl'), __('license', 'edcl'), 'manage_options', 'license', 'license');
         add_submenu_page('Contactlist', __('About contactlist', 'edcl'), __('About', 'edcl'), 'manage_options', 'about', 'about');
     } else {
